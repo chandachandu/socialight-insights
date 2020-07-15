@@ -1,0 +1,13 @@
+[04-Jul-2020 07:12:29 UTC] PHP Warning:  include_once(db): failed to open stream: No such file or directory in /home/balajihomes/socialight.co.in/insights/post.php on line 2
+[04-Jul-2020 07:12:29 UTC] PHP Warning:  include_once(): Failed opening 'db' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/balajihomes/socialight.co.in/insights/post.php on line 2
+[04-Jul-2020 07:13:01 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/balajihomes/socialight.co.in/insights/post.php on line 4
+[04-Jul-2020 07:13:01 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/balajihomes/socialight.co.in/insights/post.php on line 15
+[04-Jul-2020 07:17:47 UTC] PHP Recoverable fatal error:  Object of class mysqli could not be converted to string in /home/balajihomes/socialight.co.in/insights/check.php on line 5
+[04-Jul-2020 07:18:13 UTC] PHP Recoverable fatal error:  Object of class mysqli could not be converted to string in /home/balajihomes/socialight.co.in/insights/db.php on line 2
+[04-Jul-2020 07:18:15 UTC] PHP Recoverable fatal error:  Object of class mysqli could not be converted to string in /home/balajihomes/socialight.co.in/insights/db.php on line 2
+[04-Jul-2020 07:18:18 UTC] PHP Recoverable fatal error:  Object of class mysqli could not be converted to string in /home/balajihomes/socialight.co.in/insights/db.php on line 2
+[04-Jul-2020 07:19:46 UTC] PHP Warning:  include(db.php): failed to open stream: No such file or directory in /home/balajihomes/socialight.co.in/insights/check.php on line 3
+[04-Jul-2020 07:19:46 UTC] PHP Warning:  include(): Failed opening 'db.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/balajihomes/socialight.co.in/insights/check.php on line 3
+[04-Jul-2020 07:19:48 UTC] PHP Warning:  include(db.php): failed to open stream: No such file or directory in /home/balajihomes/socialight.co.in/insights/check.php on line 3
+[04-Jul-2020 07:19:48 UTC] PHP Warning:  include(): Failed opening 'db.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/balajihomes/socialight.co.in/insights/check.php on line 3
+[04-Jul-2020 07:28:42 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/balajihomes/socialight.co.in/insights/post.php on line 8
