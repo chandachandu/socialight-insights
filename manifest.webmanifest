@@ -1,0 +1,21 @@
+{
+	"name": "Socialight Insights",
+	"short_name": "socialight",
+	"start_url": ".",
+	"display": "standalone",
+	"background_color": "#fff",
+	"description": "Socialight Insights App",
+	"icons": [
+		{
+			"src": "assets/img/favicon.png",
+			"sizes": "65x65",
+			"type": "image/png",
+			"purpose": "maskable any"
+		},
+		{
+			"src": "assets/img/favicon-512.png",
+			"sizes": "512x512",
+			"type": "image/png"
+		}
+	]
+}

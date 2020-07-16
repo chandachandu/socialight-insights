@@ -6,6 +6,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <title>Socialight -Digital Marketing Company</title>
+	<link rel="manifest" href="/manifest.webmanifest" />
 
       <!-- Bootstrap CSS -->
       <link rel="stylesheet" href="assets/css/bootstrap.min.css" >
@@ -15,6 +16,20 @@
 
 
       <link rel="stylesheet" href="assets/css/font-awesome.min.css" >
+
+	  <script>
+		if ('serviceWorker' in navigator) {
+			window.addEventListener('load', function() {
+				navigator.serviceWorker.register('/sw.js').then(function(reg) {
+					console.log("App Registered");
+				}, function(err) {
+					console.log("error registering app");
+				});
+			});
+		} else {
+			console.log("service worker not supported");
+		}
+ 	</script>
      
 </head>
 <body>
@@ -82,9 +97,6 @@
    <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
 
    <script type="text/javascript" src="assets/js/home.js"></script>
-
-
-
 
 	
 </body>
