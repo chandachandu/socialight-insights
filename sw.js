@@ -1,10 +1,10 @@
 var CACHE_NAME = "socialight_insights";
 
 var CACHE_RESOURCES = [
-	'/assets/css/bootstrap.min.css',
-	'/assets/css/bootstrap.min.css.map',
-	'/assets/js/main.js',
-	'/assets/js/home.js'
+	'assets/css/bootstrap.min.css',
+	'assets/css/bootstrap.min.css.map',
+	'assets/js/main.js',
+	'assets/js/home.js'
 ];
 
 self.addEventListener("install", function(event) {
