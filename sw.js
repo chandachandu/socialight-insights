@@ -1,10 +1,32 @@
 var CACHE_NAME = "socialight_insights";
 
 var CACHE_RESOURCES = [
+	'assets/img/404.jpg',
+	'assets/img/app.png',
+	'assets/img/bulb.png',
+	'assets/img/aceesdenide.png',
+	'assets/img/app-icon.png',
+	'assets/img/favicon.png',
+	'assets/img/insights.png',
+
 	'assets/css/bootstrap.min.css',
 	'assets/css/bootstrap.min.css.map',
+	'assets/css/font-awesome.min.css',
+	'assets/css/fonts.css',
+	'assets/css/global.css',
+
 	'assets/js/main.js',
-	'assets/js/home.js'
+	'assets/js/home.js',
+	'assets/js/bootstrap.min.js',
+	'assets/js/bootstrap.min.js.map',
+	'assets/js/jquery-3.5.1.min.js',
+
+
+	'assets/fonts/Montserrat-Black.ttf',
+	'assets/fonts/Montserrat-Bold.ttf',
+	'assets/fonts/Montserrat-ExtraBold.ttf',
+	'assets/fonts/Montserrat-Light.ttf',
+	'assets/fonts/Montserrat-Medium.ttf'
 ];
 
 self.addEventListener("install", function(event) {
