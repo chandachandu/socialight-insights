@@ -19,7 +19,7 @@ var CACHE_RESOURCES = [
 	'assets/js/home.js',
 	'assets/js/bootstrap.min.js',
 	'assets/js/bootstrap.min.js.map',
-	'assets/js/jquery-3.5.1.min.js',
+	'assets/js/jquery-3.5.1.min.js',z
 
 
 	'assets/fonts/Montserrat-Black.ttf',
