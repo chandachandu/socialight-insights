@@ -12,6 +12,7 @@
       <link rel="stylesheet" href="assets/css/bootstrap.min.css" >
       <link rel="stylesheet" href="assets/css/global.css" >
     <link rel="icon" type="image/x-icon" href="assets/img/favicon.png" />
+    <link rel="apple-touch-icon" sizes="750x750" href="assets/img/app-icon.png"/>
 
 
 
